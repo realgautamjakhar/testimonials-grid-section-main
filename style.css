@@ -21,7 +21,7 @@ main {
     margin: auto;
     height: auto;
 
-    grid-template-columns: repeat(4,minmax(auto,250px));
+    grid-template-columns: repeat(4,minmax(auto,255px));
     grid-template-rows: repeat(2,auto);
     grid-template-areas: "card1 card1 card2 card5"
                         "card3 card4 card4 card5";
@@ -100,7 +100,7 @@ h2{
     color: black;
 }
 .card3 p, .card5 p{
-    color: hsla(0, 0%, 0%, 0.7);
+    color: hsla(0, 0%, 15%, 0.7);
 }
 
 @media screen and (max-width:900px) {
